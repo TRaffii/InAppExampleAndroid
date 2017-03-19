@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements BillingProcessor.
 
     @Override
     public void onBillingError(int errorCode, Throwable error) {
-        Toast.makeText(this, "Something were wrong!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Something was wrong!", Toast.LENGTH_SHORT).show();
     }
 
     @Override
